@@ -7,8 +7,8 @@ def on_connect(client, userdata, flags, rc):
     # Subscribing in on_connect - if we lose the connection
     # Reconnect then the subscription will be renewed.
 
-    client.subscribe("CoreElectronics/test")
-    client.subscribe("CoreElectronics/topic")
+    client.subscribe("")
+    client.subscribe("")
 
 # When a server publishes a message this will be called.
 def on_message(client, userdata, msg):
